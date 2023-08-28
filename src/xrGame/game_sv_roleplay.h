@@ -14,6 +14,7 @@ class game_sv_roleplay : public game_sv_freemp
 
 private:
 	xr_map<u16, TeamSpawnSect> m_teamSettings;
+	xr_vector<CSE_Abstract*> to_destroy;
 	u8 m_uTeamCount = 0;
 
 private:
